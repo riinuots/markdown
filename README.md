@@ -25,7 +25,7 @@ https://www.rstudio.com/products/rstudio/download/#download
 ### 3.1 Open RStudio and copy-paste the lines below into the Console and press Enter:
 
 ```{r}
-healthyr_markdown_cran = c("rmarkdown", "tinytex", "tidyverse", "finalfit", "knitr", "boot",
+healthyr_markdown_cran = c("rmarkdown", "tinytex", "tidyverse", "knitr",
                            "remotes", "kableExtra", "gapminder", "shiny", "flexdashboard", "here")
 install.packages(healthyr_markdown_cran)
 ```
