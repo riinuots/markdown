@@ -41,12 +41,10 @@ install.packages(healthyr_markdown_cran)
 
 ### 3.2 Then Restart R
 
-## 3.3 to then run these two lines (same as before, copy-paste to the Console):
+### 3.3 to then run these two lines (same as before, copy-paste to the Console):
 
 ```{r}
 
-remotes::install_github("thomasp85/patchwork")
-remotes::install_github("rstudio/gt")
 tinytex::install_tinytex()
 
 ```
