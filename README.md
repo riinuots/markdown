@@ -1,6 +1,9 @@
 RStudio Cloud space: 
 https://rstudio.cloud/spaces/37426/join?access_code=vAvTiiJhpc62pWHVxscUd0oZglu9UEgSMGEIWdNf
 
+Exercises instructions:
+https://github.com/riinuots/markdown/blob/master/instructions/instructions.utf8.md
+
 # Installation
 
 ## 1. R
