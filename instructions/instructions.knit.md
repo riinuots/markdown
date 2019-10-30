@@ -105,8 +105,15 @@ We can also include R code inside Markdown sentences using a single \` instead o
 
 It can be very useful to include the current time or date in your Markdown document.
 
-Look at the top of your working document - the part called YAML. Replace the currently hard-coded date with with "`r` `Sys.time()`". Knit your document and see what changed.
+Look at the top of your working document - the part called YAML. Replace the currently hard-coded date with with:
 
+
+```r
+"`r Sys.time()`"
+```
+
+Knit your document and see what changed.
+ 
 Bonus:
 To change the format of this date/time, wrap `Sys.time()` inside `format()`, e.g., `format('%H:%M %d-%b-%Y')`. Because you're already using double quotes in the date, you'll have to use single quotes inside the `format()` function. So it ends up like this: 
 
