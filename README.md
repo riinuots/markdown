@@ -47,5 +47,5 @@ install.packages(healthyr_markdown_cran)
 tinytex::install_tinytex()
 
 ```
-What's going on here: we've installed the package called `tinytex`, but we need to run its function `install_tinytex()` to  install Tex. Tinytex is a package that helps us install Tex.
+What's going on here: we've installed the package called `tinytex`, but we need to run its function `install_tinytex()` to  install Tex. Tinytex is a package that helps us install Tex, which is required to produce PDF output.
 
