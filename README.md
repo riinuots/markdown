@@ -1,11 +1,15 @@
 
 
 # 1a - If you don't have RStudio and the relevant packages installed, use our RStudio Cloud space: 
+
 https://rstudio.cloud/spaces/37426/join?access_code=vAvTiiJhpc62pWHVxscUd0oZglu9UEgSMGEIWdNf
 
-# 1 b - If you are working on your own computer, create a new project and copy this file: https://github.com/riinuots/markdown/blob/master/working_document.Rmd
+# 1 b - If you are working on your own computer, create a new project and copy this file: 
+
+https://github.com/riinuots/markdown/blob/master/working_document.Rmd
 
 # 2 - Instructions to work with the working_document.Rmd:
+
 https://github.com/riinuots/markdown/blob/master/instructions/instructions.utf8.md
 
 # Installation
