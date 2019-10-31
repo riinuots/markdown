@@ -3,6 +3,7 @@ title: "R Markdown instructions"
 author: "healthyr.surgicalinformatics.org"
 date: "30-October 2019"
 output:
+  md_document:
   html_document:
     number_sections: yes
     toc: yes
