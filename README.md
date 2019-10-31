@@ -41,12 +41,11 @@ install.packages(healthyr_markdown_cran)
 
 ### 3.2 Then Restart R
 
-## 3.3 to then run these two lines (same as before, copy-paste to the Console):
-
+### 3.3 to then run these this line:
 ```{r}
 
-remotes::install_github("thomasp85/patchwork")
-remotes::install_github("rstudio/gt")
 tinytex::install_tinytex()
 
 ```
+What's going on here: we've installed the package called `tinytex`, but we need to run its function `install_tinytex()` to  install Tex. Tinytex is a package that helps us install Tex, which is required to produce PDF output.
+
