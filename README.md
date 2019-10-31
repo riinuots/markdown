@@ -5,7 +5,7 @@ https://github.com/riinuots/markdown/blob/master/working_document.Rmd
 
 # 2 - Instructions to work with the working_document.Rmd:
 
-https://github.com/riinuots/markdown/blob/master/instructions/instructions.utf8.md
+https://github.com/riinuots/markdown/blob/master/instructions/instructions.md
 
 # Installation
 
