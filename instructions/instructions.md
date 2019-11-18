@@ -28,6 +28,9 @@ Create a new project and copy this file:
 
 <a href="https://github.com/riinuots/markdown/blob/master/working_document.Rmd" class="uri">https://github.com/riinuots/markdown/blob/master/working_document.Rmd</a>
 
+(Right click - Save Link As downloads `working_document.Rmd` on your
+computer)
+
 Create HTML/PDF/Word - rendering
 ================================
 

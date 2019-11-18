@@ -4,15 +4,11 @@
 http://rpubs.com/riinu/markdown
 
 
-# Instrcutions:
+# Instructions:
 
-If not used R/RStudio/RMarkdown/PDF before, do the installation first. Otherwise, head straight to:
+If not used Markdown before, do the installation first. Otherwise, head straight to:
 
 https://github.com/riinuots/markdown/blob/master/instructions/instructions.md
-
-Create a new project and copy this file: 
-
-https://github.com/riinuots/markdown/blob/master/working_document.Rmd
 
 
 # Installation

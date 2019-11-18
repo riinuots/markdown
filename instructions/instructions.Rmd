@@ -31,6 +31,7 @@ Create a new project and copy this file:
 
 https://github.com/riinuots/markdown/blob/master/working_document.Rmd
 
+(Right click - Save Link As downloads `working_document.Rmd` on your computer)
 
 # Create HTML/PDF/Word - rendering
 
