@@ -1,3 +1,33 @@
+-   [Set-up](#set-up)
+-   [Create HTML/PDF/Word - rendering](#create-htmlpdfword---rendering)
+    -   [Knit to three different
+        formats](#knit-to-three-different-formats)
+    -   [Set first output back to HTML](#set-first-output-back-to-html)
+    -   [Add automated section numbering to your
+        document](#add-automated-section-numbering-to-your-document)
+-   [Markdown syntax](#markdown-syntax)
+    -   [Open the Markdown Quick
+        reference:](#open-the-markdown-quick-reference)
+    -   [New code chunk](#new-code-chunk)
+    -   [Outputting tables, issues with different output
+        formats](#outputting-tables-issues-with-different-output-formats)
+    -   [Inline R code](#inline-r-code)
+        -   [Current time](#current-time)
+-   [Chunk options](#chunk-options)
+    -   [Hide messages or warnings](#hide-messages-or-warnings)
+    -   [Figure size](#figure-size)
+    -   [Setting options for all chunks at
+        once](#setting-options-for-all-chunks-at-once)
+-   [Creating a new Markdown
+    document](#creating-a-new-markdown-document)
+
+Set-up
+======
+
+Create a new project and copy this file:
+
+<a href="https://github.com/riinuots/markdown/blob/master/working_document.Rmd" class="uri">https://github.com/riinuots/markdown/blob/master/working_document.Rmd</a>
+
 Create HTML/PDF/Word - rendering
 ================================
 

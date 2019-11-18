@@ -1,9 +1,9 @@
 ---
 title: "R Markdown instructions"
 author: "healthyr.surgicalinformatics.org"
-date: "30-October 2019"
 output:
   md_document:
+    toc: yes
   html_document:
     number_sections: yes
     toc: yes
@@ -24,6 +24,13 @@ mydata = gapminder %>%
   select(-pop)
 
 ```
+
+# Set-up {-}
+
+Create a new project and copy this file: 
+
+https://github.com/riinuots/markdown/blob/master/working_document.Rmd
+
 
 # Create HTML/PDF/Word - rendering
 

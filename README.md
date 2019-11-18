@@ -1,11 +1,19 @@
 
-# 1 - Create a new project and copy this file: 
+# Slides:
+
+http://rpubs.com/riinu/markdown
+
+
+# Instrcutions:
+
+If not used R/RStudio/RMarkdown/PDF before, do the installation first. Otherwise, head straight to:
+
+https://github.com/riinuots/markdown/blob/master/instructions/instructions.md
+
+Create a new project and copy this file: 
 
 https://github.com/riinuots/markdown/blob/master/working_document.Rmd
 
-# 2 - Instructions to work with the working_document.Rmd:
-
-https://github.com/riinuots/markdown/blob/master/instructions/instructions.md
 
 # Installation
 
