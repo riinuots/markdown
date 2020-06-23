@@ -7,7 +7,7 @@ output:
   html_document:
     number_sections: yes
     toc: yes
-  pdf_document: 
+  pdf_document:
     number_sections: yes
     toc: yes
 ---
@@ -29,7 +29,7 @@ mydata = gapminder %>%
 
 Create a new project and copy this file: 
 
-https://github.com/riinuots/markdown/blob/master/working_document.Rmd
+https://raw.githubusercontent.com/riinuots/markdown/master/working_document.Rmd
 
 (Right click - Save Link As downloads `working_document.Rmd` on your computer)
 
@@ -166,11 +166,11 @@ Click on the "chunk cog" to hide messages:
 
 After you click on the Show messages button, `message = FALSE` appears as a chunk option. (You could also type/copy this into other chunks instead of clicking on the cog.)
 
-Simiarly, to hide warnings for a specific chunk, use the same cog or add `warning = FALSE`.
+Similarly, to hide warnings for a specific chunk, use the same cog or add `warning = FALSE`.
 
 ## Figure size
 
-Go down to the Chunk wehere we create the plot.
+Go down to the Chunk where we create the plot.
 
 Open the chunk cog (same as in the section above) and click on "Use custom figure size". Change the width and height of the plot to, for example, 5x3.
 

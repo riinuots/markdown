@@ -26,7 +26,7 @@ Set-up
 
 Create a new project and copy this file:
 
-<a href="https://github.com/riinuots/markdown/blob/master/working_document.Rmd" class="uri">https://github.com/riinuots/markdown/blob/master/working_document.Rmd</a>
+<https://raw.githubusercontent.com/riinuots/markdown/master/working_document.Rmd>
 
 (Right click - Save Link As downloads `working_document.Rmd` on your
 computer)
@@ -39,7 +39,7 @@ Knit to three different formats
 
 Open `working_document.Rmd` and Knit it into HTML, PDF, and then Word.
 
-**Control+Shift+K** to “knit” the whole Rmd (RMarkdown) document. Or use
+**Control+Shift+K** to "knit" the whole Rmd (RMarkdown) document. Or use
 the Knit button above, and the options there:
 
 <img src="knit_button.png" width="200" />
@@ -50,7 +50,7 @@ Set first output back to HTML
 Set the output format of `working_document.Rmd` back to html\_document
 by either
 
-1.  Press on the Knit button and select “Knit to HTML” again (this moves
+1.  Press on the Knit button and select "Knit to HTML" again (this moves
     `html_document` to the top of `output:`).
 
 or
@@ -61,14 +61,14 @@ or
 
 \* Originally YAML was said to mean Yet Another Markup Language,
 referencing its purpose as a markup language with the yet another
-construct, but it was then repurposed as YAML Ain’t Markup Language, a
+construct, but it was then repurposed as YAML Ain't Markup Language, a
 recursive acronym, to distinguish its purpose as data-oriented, rather
 than document markup. (Wikipedia)
 
 Add automated section numbering to your document
 ------------------------------------------------
 
-Open the Document Options (“document cog”):
+Open the Document Options ("document cog"):
 
 <img src="document_cog.png" width="300" />
 
@@ -86,7 +86,7 @@ Open the Markdown Quick reference:
 <img src="markdown_quick_reference.png" width="600" />
 
 Or look at the *R Markdown :: Cheat Sheet* for basic Markdown syntax and
-their effects (reverse: “Pandoc’s Markdown”).
+their effects (reverse: "Pandoc's Markdown").
 
 New code chunk
 --------------
@@ -143,13 +143,13 @@ the currently hard-coded date with with:
 Knit your document and see what changed.
 
 Bonus: To change the format of this date/time, wrap `Sys.time()` inside
-`format()`, e.g., `format('%H:%M %d-%b-%Y')`. Because you’re already
-using double quotes in the date, you’ll have to use single quotes inside
+`format()`, e.g., `format('%H:%M %d-%b-%Y')`. Because you're already
+using double quotes in the date, you'll have to use single quotes inside
 the `format()` function. So it ends up like this:
 
     "`r format(Sys.time(), '%b-%Y')`"
 
-Note the difference between the backticks (\`) and single ticks (’).
+Note the difference between the backticks (\`) and single ticks (').
 
 Date-time formatting options:
 
@@ -208,7 +208,7 @@ Chunk options
 Hide messages or warnings
 -------------------------
 
-Click on the “chunk cog” to hide messages:
+Click on the "chunk cog" to hide messages:
 
 <img src="chunk_cog.png" width="600" />
 
@@ -216,16 +216,16 @@ After you click on the Show messages button, `message = FALSE` appears
 as a chunk option. (You could also type/copy this into other chunks
 instead of clicking on the cog.)
 
-Simiarly, to hide warnings for a specific chunk, use the same cog or add
-`warning = FALSE`.
+Similarly, to hide warnings for a specific chunk, use the same cog or
+add `warning = FALSE`.
 
 Figure size
 -----------
 
-Go down to the Chunk wehere we create the plot.
+Go down to the Chunk where we create the plot.
 
-Open the chunk cog (same as in the section above) and click on “Use
-custom figure size”. Change the width and height of the plot to, for
+Open the chunk cog (same as in the section above) and click on "Use
+custom figure size". Change the width and height of the plot to, for
 example, 5x3.
 
 Setting options for all chunks at once
@@ -244,5 +244,5 @@ Creating a new Markdown document
 Then Save it and give the file a name.
 
 I then usually delete everything below the set-up chunk header and start
-adding content by copying chunks I’ve done previously (or from scripts)
+adding content by copying chunks I've done previously (or from scripts)
 in there.
